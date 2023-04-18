@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- Nav Section -->
+    <nav>
+        <div class="container d-flex justify-content-between">
+        <div class="left">
+            <img src="./Images/logo.png" alt="" class="img-fluid">
+        </div>
+        <div class="right d-flex justify-content-around mt-4">
+            <i class="fa-solid fa-phone-volume" style="color:#4a88f2"></i><p class="ms-3">Questions?<br>(123)123-456</p></br>
+            <i class="fa-solid fa-location-dot ms-5" style="color:#4a88f2"></i><p class="ms-3">Our Office <br>45 Park Avenue,NY</br></p>
+            <button class="btn ms-5 text-primary" style="border-color: blue;">Request Services</button>
+        </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container mt-4">
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    
+                    <li class="nav-item dropdown ms-5">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Home
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Home 1</a></li>
+                            <li><a class="dropdown-item" href="#">Home 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown ms-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">All Projects</a></li>
+                            <li><a class="dropdown-item" href="#">Categories</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown ms-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Service List 1</a></li>
+                            <li><a class="dropdown-item" href="#">Service List 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown ms-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Shortcodes</a></li>
+                            <li><a class="dropdown-item" href="#">Typography</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown ms-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Shop
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Shop</a></li>
+                            <li><a class="dropdown-item" href="#">Product Page</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown ms-3">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Blog
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Blog</a></li>
+                            <li><a class="dropdown-item" href="#">Post Page</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                </ul>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-magnifying-glass ms-3"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div id="hero">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="./Images/carving-g77e44266b_1920.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-flex align-items-center bottom-0 top-0">
+                  <div class="card1" data-aos="fade-up" data-aos-duration="3000">
+                    <h3>CARPENTRY SERVICES</h3>
+                    <p>We specialize in a number of framing. trim and finish<br>carpentry services. Our goal is complete satisfaction.</p>
+                    <button class="btn text-light bg-primary mt-3">REQUEST SERVICE</button>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="./Images/painter-g518bfa759_1920.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-flex align-items-center bottom-0 top-0">
+                    <div class="card1" data-aos="fade-down" data-aos-duration="1500">
+                        <h3>INTERIOR PAINTING</h3>
+                        <p>We specialize in a number of framing. trim and finish<br>carpentry services. Our goal is complete satisfaction.</p>
+                        <button class="btn text-light bg-primary mt-3">REQUEST SERVICE</button>
+                      </div>
+                </div>
+              </div>
+              <div class="carousel-item" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="./Images/building-gdecbb1ace_1920.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-flex align-items-center bottom-0 top-0">
+                    <div class="card1" data-aos="fade-up" data-aos-duration="1500">
+                        <h3>PROFESSIONAL TILING</h3>
+                        <p>Highly experienced in residential and commercial<br>billing, bathroom renevation, waterproofing, silicone<br>work and soundproofing</br></p>
+                        <button class="btn text-light bg-primary mt-3">REQUEST SERVICE</button>
+                      </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+    <!-- Services -->
+    <div id="service" class="container">
+        <h2 class="text-center mt-5">Featured Services</h2>
+         <div class="row mt-5">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="row pb-5">
+                    <div class="col-md-6">
+                        <i class="fa-solid fa-paint-roller fs-1 mt-5 ms-5" style="color: #2d78fb;"></i>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="mt-5">Painting</h5>
+                        <p>A fresh coat of paint can<br>breathe life into any room</br></p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="row pb-5">
+                    <div class="col-md-6">
+                        <i class="fa-sharp fa-solid fa-screwdriver-wrench fs-1 mt-5 ms-5" style="color: #2d78fb;"></i>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="mt-5">Repair</h5>
+                        <p>If something is broken in<br>your home, we can fix it.</br></p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="row pb-5">
+                    <div class="col-md-6">
+                        <i class="fa-solid fa-hammer fs-1 mt-5 ms-5" style="color: #2d78fb;"></i>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="mt-5">Carpentry</h5>
+                        <p>We build, construct and<br>install all you need</br></p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <div class="row mt-3">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="row pb-5">
+                    <div class="col-md-6">
+                        <i class="fa-solid fa-wrench fs-1 mt-5 ms-5" style="color: #2d78fb;"></i>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="mt-5">Plumbing</h5>
+                        <p>Toilet replacement, pipe<br>insulation and more</br></p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="row pb-5">
+                    <div class="col-md-6">
+                        <i class="fa-sharp fa-solid fa-pen-ruler fs-1 mt-5 ms-5" style="color: #2d78fb;"></i>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="mt-5">Remodeling</h5>
+                        <p>Upgrade your home with a<br>few finishing touches</br></p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="row pb-5">
+                    <div class="col-md-6">
+                        <i class="fa-solid fa-bolt fs-1 mt-5 ms-5" style="color: #2d78fb;"></i>
+                    </div>
+                    <div class="col-md-6">
+                        <h5 class="mt-5">Electrical</h5>
+                        <p>We professionally install<br>electric applinces</br></p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+    </div>
+
+    <!-- Projects -->
+    <div id="project" >
+        <h3 class="text-center mt-5 pt-5">OUR LATEST PROJECTS</h3>
+        <div class="middle1 d-flex justify-content-center mt-5">
+        <a href="" class="text-decoration-none text-dark">ALL</a>
+        <a href="" class="text-decoration-none text-dark ms-4">KITCHENS</a>
+        <a href="" class="text-decoration-none text-dark ms-4">BATHROOMS</a>
+        <a href="" class="text-decoration-none text-dark ms-4">BEDROOMS</a>
+        <a href="" class="text-decoration-none text-dark ms-4">LIVING ROOMS</a>
+        </div>
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="project">
+                    <img src="./Images/latest-project-02.jpg" alt="" class="img-fluid img1">
+                    <div class="text">
+                        <h4 class="middle">Bathroom</h4>
+                        <p class="middle mt-4">February 2016</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project">
+                    <img src="./Images/latest-project-03.jpg" alt="" class="img-fluid">
+                    <div class="text">
+                        <h4 class="middle">KITCHEN</h4>
+                        <p class="middle mt-4">January 2016</p>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project">
+                    <img src="./Images/latest-project-04.jpg" alt="" class="img-fluid img2">
+                    <div class="text">
+                        <h4 class="middle">Bathroom</h4>
+                        <p class="middle mt-4">DECEMBER 2016</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-4">
+                    <div class="project">
+                    <img src="./Images/latest-project-05.jpg" alt="" class="img-fluid img3">
+                    <div class="text">
+                        <h4 class="middle">LIVING ROOM</h4>
+                        <p class="middle mt-4">November 2015</p>
+                    </div>
+                </div>
+            </div>
+                <div class="col-md-4">
+                    <div class="project">
+                    <img src="./Images/latest-project-06.jpg" alt="" class="img-fluid">
+                    <div class="text">
+                        <h4 class="middle">LIVING ROOM</h4>
+                        <p class="middle mt-4">November 2015</p>
+                    </div>
+                </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project">
+                    <img src="./Images/latest-project-07.jpg" alt="" class="img-fluid img4">
+                    <div class="text">
+                        <h4 class="middle">LIVING ROOM</h4>
+                        <p class="middle mt-4">November 2015</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="butt d-flex justify-content-center mt-5 pb-5">
+        <button class="btn ms-5 text-primary" style="border-color: blue;">VIEW ALL PROJECTS</button>
+        </div>
+    </div>
+
+    <!-- Stages -->
+    <div id="stage" class="container">
+       <h3 class="text-center mt-5">ALL STAGES OF THE RENOVATION</h3>
+       <div class="row mt-5">
+        <div class="col-md-3">
+            <div class="icon d-flex justify-content-center">
+            <i class="fa-sharp fa-solid fa-compass-drafting fs-1 mt-5" style="color: #478bff;"></i>
+            </div>
+            <p class="text-center text-primary mt-3">INITIAL STAGE</p>
+            <h4 class="text-center mt-3">CUSTOMER IDEA</h4>
+            <p class="text-center mt-3">Curabitur sodales massa velit, id <br>dapibus nunc efficitur at. Quisque <br>elementum magna quis ante suscipit, <br>quis fermentum augue viverra.</br></br></br></p>
+        </div>
+        <div class="col-md-3">
+            <div class="icon d-flex justify-content-center">
+                <i class="fa-sharp fa-solid fa-circle-half-stroke fs-1 mt-5" style="color: #478bff;"></i>
+                </div>
+                <p class="text-center text-primary mt-3">SECOND STAGE</p>
+                <h4 class="text-center mt-3">FREE QUOTATION</h4>
+                <p class="text-center mt-3">Curabitur sodales massa velit, id <br>dapibus nunc efficitur at. Quisque <br>elementum magna quis ante suscipit, <br>quis fermentum augue viverra.</br></br></br></p>
+        </div>
+        <div class="col-md-3">
+            <div class="icon d-flex justify-content-center">
+                <i class="fa-solid fa-hammer fs-1 mt-5" style="color: #478bff;"></i>
+                </div>
+                <p class="text-center text-primary mt-3">THIRD STAGE</p>
+                <h4 class="text-center mt-3">CUNSTRUCTION</h4>
+                <p class="text-center mt-3">Curabitur sodales massa velit, id <br>dapibus nunc efficitur at. Quisque <br>elementum magna quis ante suscipit, <br>quis fermentum augue viverra.</br></br></br></p>
+        </div>
+        <div class="col-md-3">
+            <div class="icon d-flex justify-content-center">
+                <i class="fa-sharp fa-solid fa-house fs-1 mt-5" style="color: #478bff;"></i>
+                </div>
+                <p class="text-center text-primary mt-3">FINAL STAGE</p>
+                <h4 class="text-center mt-3">WARRANTY BEYOND</h4>
+                <p class="text-center mt-3">Curabitur sodales massa velit, id <br>dapibus nunc efficitur at. Quisque <br>elementum magna quis ante suscipit, <br>quis fermentum augue viverra.</br></br></br></p>
+        </div>
+       </div>
+    </div>
+
+    <!-- Footer -->
+  <div id="footer" class="container-fluid bg-dark ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mt-5">
+                <a href="" class="text-decoration-none text-light">About Us</a>
+                <p class="text-danger ">______</p>
+                <p class="text-light">Suspendisse non sem ante. Cras pretium gravida leo a convallis. Nam malesuada interdum metus, sit amet dictum ante congue eu. Maecenas ut maximus enim.</p>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook" style="color: #e7eaee;"></i>
+                    <i class="fa-brands fa-instagram" style="color: #f2f4f7;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #f7f9fd;"></i>
+                </div>
+            </div>
+            <div class="col-md-4 mt-5">
+                <a href="" class="text-decoration-none text-light">Contact Us</a>
+                <p class="text-danger ">______</p>
+                <i class="fa-solid fa-phone" style="color: #f9fafa;"></i>
+                <p class="text-light">+62831-2864-349-1</p>
+                <i class="fa-solid fa-envelope" style="color: #f5f7fa;"></i>
+                <p class="text-light">office@example.com</p>
+            </div>
+            <div class="col-md-4 mt-5">
+                <div class="miidle d-flex flex-column">
+                    <h5 class="text-light">SUPPORT</h5>
+                    <a href="" class="text-light text-decoration-none">FAQ's</a>
+                    <a href="" class="text-light text-decoration-none">Privacy Policy</a>
+                    <a href="" class="text-light text-decoration-none">Term & Conditions</a>
+                    <a href="" class="text-light text-decoration-none">Contact</a>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+  AOS.init();
+</script>
+
+<script src="./app.js"></script>
+</html>
